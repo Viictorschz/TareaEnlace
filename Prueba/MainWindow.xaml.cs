@@ -61,6 +61,10 @@ namespace Prueba
                 serializer.Serialize(writer, data);
             }
             MessageBox.Show("Datos guardados en datos.xml");
+
+            // Limpiar los campos después de guardar
+            Nombre = string.Empty;
+            Telefono = string.Empty;
         }
     }
 
