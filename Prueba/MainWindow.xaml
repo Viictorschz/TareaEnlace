@@ -8,6 +8,8 @@
             <RowDefinition Height="Auto"/>
             <RowDefinition Height="Auto"/>
             <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
         </Grid.RowDefinitions>
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="Auto"/>
@@ -27,6 +29,8 @@
         <Label Grid.Row="2" Grid.Column="1" Content="{Binding Nombre, StringFormat='Nombre: {0}'}"/>
         <Label Grid.Row="3" Grid.Column="0" Content=""/>
         <Label Grid.Row="3" Grid.Column="1" Content="{Binding Telefono, StringFormat='Teléfono: {0}'}"/>
+
+        <!-- TextBox de solo lectura para verificación -->
 
         <!-- Botón para guardar -->
         <Button Grid.Row="4" Grid.Column="0" Grid.ColumnSpan="2" Content="Guardar en XML" 
